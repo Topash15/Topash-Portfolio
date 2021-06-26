@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.root{
+    --blue: #777;
+}
+
+/*start of header styling*/
+header {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    margin: auto;
+    background-color:#1d3c56;
+}
+
+header h1 {
+    width: 100%;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav {
+    float: inline-start;
+}
+
+header nav ul{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: left;
+}
+
+header nav ul a{
+    padding: 15px 15px;
+    color: beige;
+    text-decoration: none;
+}
+
+header nav ul a:hover {
+    font-style: italic;
+}
+/*end of header styling*/
+
+/*start of hero styling*/
+.hero{
+    align-items: flex-start;
+    background-image: url(../img/hero\ photo.jpeg);
+    display: flex;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 377px;
+    position: relative;
+}
+
+.hero-text{
+    color: beige;
+}
