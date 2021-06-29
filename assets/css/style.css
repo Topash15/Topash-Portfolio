@@ -56,23 +56,31 @@ header nav ul a:hover {
 }
 /*end of header styling*/
 
+/*start of about me*/
+.about-me{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: var(--secondary);
+}
+
 /*start of intro styling*/
 .intro{
+    width: 50%;
+    height: 260px;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-around;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 150px;
     position: relative;
     background-color: var(--secondary);
 }
 
 .intro-text{
     order: 1;
-    color: beige;
+    color: var(--text);
     text-align: center;
-    align-self: flex-end;
 }
 
 
@@ -89,10 +97,55 @@ header nav ul a:hover {
 }
 
 .intro-image img{
-    align-items: flex-end;
     height: 100%;
     border: 5px solid var(--teritary);
     border-radius: 50%;
+}
+
+/*end of intro styling*/
+
+.bio{
+    width: 50%;
+    padding: 5%;
+    background-color: var(--secondary);
+    color: var(--text);
+}
+
+.bio-title{
+}
+
+.bio-content{
+}
+
+/*Start work style*/
+.work{
+    display: flex;
+    background-color: var(--teritary);
+}
+
+.work-title{
+    width: 30%;
+    padding: 0 15%;
+    color: var(--text);
+    border-right: 2px solid var(--primary);
+}
+
+.work-list{
+    width: 70%;
+    color: var(--text);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project{
+    width: 50%;
+    
+}
+
+.main{
+    width: 100%;
+
 }
 
 p{
