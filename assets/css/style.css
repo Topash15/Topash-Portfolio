@@ -2,20 +2,29 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.root{
-    --blue: #777;
+:root{
+    --blue: #1d3c56;
+    --primary: #152A38;
+    --secondary: #29435C;
+    --teritary: #556E53;
+    --text: #D1D4C9;
 }
 
 /*start of header styling*/
 header {
+    top: 0;
+    bottom: inherit;
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;
     padding: 20px 20px;
     margin: auto;
-    background-color:#1d3c56;
+    background-color:var(--primary);
+    z-index: 9999;
+    position: sticky;
 }
 
 header h1 {
@@ -38,7 +47,7 @@ header nav ul{
 
 header nav ul a{
     padding: 15px 15px;
-    color: beige;
+    color: var(--text);
     text-decoration: none;
 }
 
@@ -47,18 +56,45 @@ header nav ul a:hover {
 }
 /*end of header styling*/
 
-/*start of hero styling*/
-.hero{
-    align-items: flex-start;
-    background-image: url(../img/hero\ photo.jpeg);
+/*start of intro styling*/
+.intro{
     display: flex;
+    justify-content: space-around;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 377px;
+    height: 150px;
     position: relative;
+    background-color: var(--secondary);
 }
 
-.hero-text{
+.intro-text{
+    order: 1;
     color: beige;
+    text-align: center;
+    align-self: flex-end;
+}
+
+
+.intro-text h2{
+    height: 50%;
+    align-items: center;
+    padding: 15%;
+}
+
+.intro-image{
+    display: flex;
+    background-color: var(--secondary);
+    align-items: center;
+}
+
+.intro-image img{
+    align-items: flex-end;
+    height: 100%;
+    border: 5px solid var(--teritary);
+    border-radius: 50%;
+}
+
+p{
+    font-size: 50px;
 }
