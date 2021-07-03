@@ -84,13 +84,11 @@ header nav ul a:hover {
 }
 
 .bio-title{
-    font-size: xx-large;
+    font-size: 32px;
     padding: 1% 0;
     width: 10rem;
 }
 
-.bio-content{
-}
 
 /*Start work style*/
 .work{
@@ -98,7 +96,7 @@ header nav ul a:hover {
     flex-direction: row;
     justify-content: space-between;
     background-color: var(--teritary);
-    height: 750px;
+    height: fit-content;
 }
 
 .work-title{
@@ -109,21 +107,27 @@ header nav ul a:hover {
     color: var(--text);
     border-right: 2px solid var(--primary);
     background-color: var(--secondary);
-    font-size: xx-large;
+}
+
+.work-title h2{
+    font-size: 32px;
 }
 
 .work-list{
     flex-basis: 70%;
     color: var(--text);
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .project{
-    flex-basis: 50%;
-    height: 50%;
-    margin-top: 1%;
+    flex-basis: 45%;
+    height: fit-content;
+    padding: 1%;
+    margin: 1%;
+    background-color: var(--secondary);
 }
 
 .project:hover{
@@ -136,12 +140,10 @@ header nav ul a:hover {
 }
 
 .project h3{
-    display: flex;
     background-color: var(--secondary);
     align-self: center;
-    width: auto;
-    box-sizing: content-box;
-    align-self: flex-end;
+    flex-basis: auto;
+    font-size: 150%;
 }
 
 .main{
@@ -177,9 +179,14 @@ header nav ul a:hover {
     text-decoration: none;
 }
 
-@media screen and (min-width: 767px){
-    .about-me{
-        background-color: var(--teritary);
+@media screen and (max-width: 767px){
+    .work{
+        height: fit-content;
+        justify-content: space-between;
+    }
+    .project{
+        flex-basis: 100%;
+        height: fit-content;
     }
 }
 
@@ -209,7 +216,7 @@ header nav ul a:hover {
     }
 
     .bio-title{
-        font-size: 48px;
+        font-size: 32px;
         text-align: center;
         justify-self: center;
     }
@@ -235,6 +242,7 @@ header nav ul a:hover {
 
     .work-list{
         justify-self: center;
+        
     }
 
     .project{
@@ -253,5 +261,9 @@ header nav ul a:hover {
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+
+    footer h2{
+        font-size: 32px;
     }
 }
