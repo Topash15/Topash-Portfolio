@@ -15,20 +15,17 @@
 
 /*start of header styling*/
 header {
-    top: 0;
-    bottom: inherit;
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;
     padding: 20px 20px;
-    margin: auto;
     background-color:var(--primary);
     z-index: 9999;
     position: sticky;
 }
 
 header h1 {
-    width: 100%;
+    flex-basis: 100%;
     color: var(--text);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -61,34 +58,26 @@ header nav ul a:hover {
     display: flex;
     flex-direction: row-reverse;
     background-color: var(--secondary);
+    align-items: center;
+    border-bottom: 2px solid var(--primary);
 }
 
-/*start of intro styling*/
-.intro{
-    width: 50%;
-    height: 260px;
+
+.about-me-image{
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
+    flex-basis: 50%;
     background-color: var(--secondary);
-    align-self: center;
+    justify-content: center;
 }
 
-.intro-image{
-    height: 100%;
-    background-color: var(--secondary);
-}
-
-.intro-image img{
-    height: 100%;
+.about-me-image img{
+    height: 200px;
     border: 5px solid var(--teritary);
     border-radius: 50%;
 }
 
-/*end of intro styling*/
-
 .bio{
-    width: 50%;
+    flex-basis: 50%;
     padding: 5%;
     background-color: var(--secondary);
     color: var(--text);
@@ -106,16 +95,17 @@ header nav ul a:hover {
 /*Start work style*/
 .work{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: var(--teritary);
     height: 750px;
 }
 
 .work-title{
-    margin-top: 3.5%;
     text-align: right;
     width: 30%;
-    height: 15%;
-    padding: 1%;
+    flex-basis: 15%;
+    padding: 0 1%;
     color: var(--text);
     border-right: 2px solid var(--primary);
     background-color: var(--secondary);
@@ -123,7 +113,7 @@ header nav ul a:hover {
 }
 
 .work-list{
-    width: 70%;
+    flex-basis: 70%;
     color: var(--text);
     display: flex;
     flex-wrap: wrap;
@@ -131,9 +121,9 @@ header nav ul a:hover {
 }
 
 .project{
-    width: 50%;
+    flex-basis: 50%;
     height: 50%;
-    padding: 5% 5%;
+    margin-top: 1%;
 }
 
 .project:hover{
@@ -155,12 +145,13 @@ header nav ul a:hover {
 }
 
 .main{
-    width: 100%;
+    flex-basis: 100%;
 }
 
 /*Start of footer*/
 .contact{
-    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
     width: 100%;
     background-color: var(--primary);
     color: var(--text);
@@ -168,20 +159,99 @@ header nav ul a:hover {
 }
 
 .contact-title{
-    margin-left: 14%;;
     font-size: xx-large;
 }
 
 .contact-list{
-    margin-left: 15%;
+    margin-left;
 }
 
 .contact-list li{
     padding: 1%;
     list-style: none;
+
 }
 
 .contact-list li a{
     color: var(--text);
     text-decoration: none;
+}
+
+@media screen and (min-width: 767px){
+    .about-me{
+        background-color: var(--teritary);
+    }
+}
+
+
+/*sizing for phone*/
+@media screen and (max-width: 575px) {
+    header{
+        display: flex;
+        justify-content: center;
+    }
+
+    header h1 {
+        flex-basis: auto;
+        text-align: center;
+    }
+
+    .about-me{
+        display: flex;
+        flex-direction: column;
+    }    
+
+    .bio{
+        flex-basis: auto;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+
+    .bio-title{
+        font-size: 48px;
+        text-align: center;
+        justify-self: center;
+    }
+
+    .work{
+        flex-direction: column;
+        justify-content: flex-start;
+        height: fit-content;
+    }
+
+    .work-title{
+        display: flex;
+        align-self: flex-start;
+        width: 100%;
+        border-right: none;
+        justify-content: center;
+        border-top: 2px solid var(--primary);
+    }
+
+    .work-title h2{
+        align-self: center;
+    }
+
+    .work-list{
+        justify-self: center;
+    }
+
+    .project{
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: column;
+        background-color: var(--secondary);
+        margin: 5% 5%
+    }
+
+    .project img{
+        margin-top: 5%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
