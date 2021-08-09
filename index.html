@@ -4,12 +4,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Topash Portfolio</title>
-        <link rel="stylesheet", href="./assets/css/style.css">
+        <!-- <link rel="stylesheet", href="./assets/css/style.css"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css"
     </head>
     <body>
         <header>
-            <h1>Alexander Topash</h1>
-                <nav>
+          <div class="container">
+            <div class="row">
+            <h1 class= "col-12">Alexander Topash</h1>
+                <nav class="navbar">
                     <ul>
                         <li>
                             <a href="#about-me">About Me</a>
@@ -18,6 +22,8 @@
                         </li>
                     </ul>
                 </nav>
+            </div>
+          </div>
         </header>
         <!--start of about me-->
         <section class="about-me" id="about-me">
@@ -29,7 +35,7 @@
             <section class="bio">
                 <h2 class="bio-title">About Me</h2>
                 <article class="bio-content">
-                    I am currently completing a full-stack web development bootcamp with the University of Central Florida. As of now, I have completed we have done work with HTML and CSS which has helped me to create this website!
+                    I am currently completing a full-stack web development bootcamp with the University of Central Florida. As of now, we have learned HTML, CSS, Javascript and have utilized APIs.
                     <br>
                     My free time is spent going to the theme parks, playing video games, and spending time with my girlfriend and dog.
                 </article>
@@ -41,27 +47,69 @@
                     My Work
                 </h2>
             </div>
-            <div class="work-list">
-                <!--Project 1-->
-                <div class="project main">
-                    <a href="https://topash15.github.io/glowing-octo-waddle/">
-                        <img src="./assets/img/Horiseon.jpg" alt="Horiseon"/>
-                    </a>
-                    <h3>Horiseon</h3>
+
+            <!-- Works list accordian -->
+
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <!-- First Project -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Fresh Finds
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="container-fluid">
+							<div class="row">
+                            <p class="col-6">This was the first time that I worked in a group to complete a project. 
+								It taught many lessons in planning and communicating so as to avoid merge conflicts 
+								and keep the project stable.			
+								The application utilizes the spotify API and vagablume API to find a random song 
+								based on a selected genre. It will then play a 30 second preview and list the lyrics.</p>
+                            <img class="img-responsive col-6" src = "assets/img/FreshFinds.jpg" alt="Fresh Finds App"></img>
+                            <a href="https://imspires.github.io/fresh-finds/">Click here to view this project!</a>
+							</div>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-                <div class="project Portfolio">
-                    <a href="https://topash15.github.io/Topash-Portfolio/">
-                        <img src="./assets/img/portfolio.jpg" alt="portfolio"/>
-                    </a>
-                    <h3>Portfolio</h3>
+
+                <!-- Second Project -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Plan Your Day
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <!-- Content for second project -->
+					<div class="accordion-body">
+                        <div class="container-fluid">
+							<div class="row">
+                            	<p class = "col-6">This project utilizes the momentjs api in order to create a dynamic work schedule.</p>
+                            	<img class="img-responsive col-6" src = "assets/img/PlanYourDay.jpg" alt="Plan Your Day Scheduling App"></img>
+							</div>
+						</div>
+                    </div> 
+                  </div>
                 </div>
-                <div class="project Run-Buddy">
-                    <a href="https://topash15.github.io/run-buddy/">
-                        <img src="./assets/img/run-buddy.jpg" alt="run-buddy"/>
-                    </a>
-                    <h3>Run-Buddy</h3>
-                </div> 
-            </div>
+
+                <!-- Third Project -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Coming Soon : Launch Watcher
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+              </div>
+
+
         </section>
         <footer class="contact" id="contact-me">
             <div class="contact-title">
@@ -81,5 +129,8 @@
                 </ul>
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     </body>
+
+    
 </html>
