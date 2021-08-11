@@ -1,0 +1,43 @@
+*{
+    color: whitesmoke
+}
+
+body {
+    background-color:black;
+    background-image: url("/assets/img/rocket-launch-background2.jpg");
+    background-repeat: no-repeat;
+}
+
+header{
+    margin-top: 25px;
+}
+
+div {
+    /* background-color: pink; */
+}
+
+
+.about-me-container{
+    height: 500px;
+    margin-top: 150px;
+}
+
+.nav-link.active{
+    background-color: gray;
+}
+
+
+/* accordion */
+.accordion-button{
+    background-color:rgba(0,0,0, 1);
+    color: white;
+}
+
+.accordion-body{
+    background-color: black;
+}
+
+.accordion-button:not(.collapsed){
+    background-color:black;
+}
+
