@@ -8,7 +8,7 @@ const Nav = (props) => {
       <div className="row">
         <div className="col-5">
           <h1>Alexander Topash</h1>
-          <h2>Full Stack Web Devloper</h2>
+          <h2>Full Stack Web Developer</h2>
         </div>
         <div className="col-7">
           <ul className="nav nav-tabs">

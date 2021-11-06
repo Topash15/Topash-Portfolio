@@ -32,7 +32,7 @@ const Footer = () => {
                     <img
                         alt={contact.alt}
                         className = {contact.source}
-                        src= {require(`../../assets/${contact.source}.png`).default}
+                        src= {require(`../../assets/footer/${contact.source}.png`).default}
                         ></img>
                   </a>
                 </li>
