@@ -17,7 +17,7 @@ const Footer = () => {
         },
         {
             name: "stackoverflow",
-            link: "https://www.linkedin.com/in/alexander-topash-667942168/",
+            link: "https://stackoverflow.com/users/16146092/topash",
             alt: "stackoverflow",
             source: 'stackoverflow'
         },
