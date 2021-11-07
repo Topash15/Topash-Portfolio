@@ -1,0 +1,182 @@
+:root{
+  --primary-color: #2b2d42;
+  --secondary-color: #8d99ae;
+  --teritiary-color: #8B8804;
+  --background-color: #1F1F1F;
+}
+
+*{
+  /* box-sizing: border-box; */
+  /* background-color: var(--background-color); */
+  color: var(--secondary-color);
+  /* background-color: rgb(77, 68, 68); */
+}
+
+html{
+  /* height: ; */
+  background-image: url("../src/assets/background/space-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body{
+  /* height: fit-content; */
+  background-image: url("../src/assets/background/space-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+a{
+  color: var(--teritiary-color)
+}
+
+/* NAV  */
+.nav{
+  align-items: end;
+  justify-content: space-between;
+}
+
+.nav-tabs{
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-link{
+  color: var(--teritiary-color)
+}
+
+.nav-link.active {
+  background-color: var(--background-color)
+}
+
+.nav-div{
+  display: flex;
+}
+
+/* FOOTER */
+
+#body{
+  min-height: 100%;
+  position: relative;
+}
+
+.footer-img{
+  height: 64px;
+  width: 64px;
+  background-color: rgba(59, 187, 255, 0);
+  border-radius: 5%;
+  box-shadow: 10px 10px;
+}
+
+.footer-list{
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.footer-item{
+  padding: 10px;
+}
+
+/* About Me */
+.about-me{
+  margin-top: 15px
+}
+
+.about-me-img{
+  border-radius: 5%;
+}
+
+.about-me-text{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/* Projects */
+
+.card{
+  margin-top: 15px;
+  opacity:.5;
+  background-color: rgba(0,0,0,0);
+  border: 0px;
+}
+
+.card:hover{
+  opacity:1;
+}
+
+.card-img-top{
+  height: 200px
+}
+
+.card-body{
+  background-color: rgba(0,0,0,50%);
+  border-radius: 2%;
+}
+
+/* Contact */
+
+form{
+  display: inline-flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact-submit{
+  margin-top: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* MEDIA QUERY */
+@media (max-width: 767px) {
+  .about-me-text{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5%;
+  }
+
+  .card{
+    background-color: rgba(0,0,0,0.8);
+    opacity: 1;
+  }
+}
