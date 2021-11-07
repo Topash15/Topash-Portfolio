@@ -7,37 +7,40 @@ const Project = () => {
       description: "This is a project",
       image: "reading-corner",
       link: "",
+      repo: "",
     },
     {
       name: "Fresh Finds",
       description: "This is a project",
       image: "fresh-finds",
       link: "",
+      repo: "",
     },
     {
-      name: "Reading Corner",
-      description: "This is a project",
-      image: "reading-corner",
-      link: "",
-    },
-    {
-      name: "Reading Corner",
-      description: "This is a project",
-      image: "reading-corner",
-      link: "",
-    },
-    {
-      name: "Reading Corner",
-      description: "This is a project",
-      image: "reading-corner",
-      link: "",
-    },
-    {
-      name: "Reading Corner",
-      description: "This is a project",
-      image: "reading-corner",
-      link: "",
-    },
+        name: "Reading Corner",
+        description: "This is a project",
+        image: "reading-corner",
+        link: "",
+        repo: "",
+      },    {
+        name: "Reading Corner",
+        description: "This is a project",
+        image: "reading-corner",
+        link: "",
+        repo: "",
+      },    {
+        name: "Reading Corner",
+        description: "This is a project",
+        image: "reading-corner",
+        link: "",
+        repo: "",
+      },    {
+        name: "Reading Corner",
+        description: "This is a project",
+        image: "reading-corner",
+        link: "",
+        repo: "",
+      },
   ];
 
   return (
@@ -59,8 +62,13 @@ const Project = () => {
                 <div className="card-body">
                   <h5 className="card-title">{project.name}</h5>
                   <p className="card-text">{project.description}</p>
-                  <a href={project.link} className="text-muted">
-                    View Project
+                  <div>
+                    <a href={project.link} className="text-muted">
+                        View Project
+                    </a>
+                  </div>
+                  <a href={project.repo} className="text-muted">
+                    View Repo
                   </a>
                 </div>
               </div>

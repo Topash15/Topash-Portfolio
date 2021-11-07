@@ -5,6 +5,51 @@
   --background-color: #1F1F1F;
 }
 
+*{
+  background-color: var(--background-color);
+  color: var(--secondary-color)
+}
+
+a{
+  color: var(--teritiary-color)
+}
+
+/* NAV  */
+.nav{
+  align-items: end;
+  justify-content: space-between;
+}
+
+.nav-tabs{
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-link{
+  color: var(--teritiary-color)
+}
+
+.nav-link.active {
+  background-color: var(--background-color)
+}
+
+.nav-div{
+  display: flex;
+}
+
+/* FOOTER */
+
+.footer-list{
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.footer-item{
+  padding: 10px;
+}
+
 .App {
   text-align: center;
 }

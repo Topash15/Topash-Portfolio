@@ -24,10 +24,10 @@ const Footer = () => {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-7">
-            <ul className="">
+          <div className="">
+            <ul className="footer-list">
               {contacts.map((contact) => (
-                <li className="" key={contact}>
+                <li className="footer-item" key={contact}>
                   <a href = {contact.link}>
                     <img
                         alt={contact.alt}
