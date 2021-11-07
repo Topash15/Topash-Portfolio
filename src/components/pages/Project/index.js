@@ -41,7 +41,7 @@ const Project = () => {
   ];
 
   return (
-    <div>
+    <section>
       <h2>My Projects</h2>
       <div className="container">
         <div className="card-group">
@@ -68,28 +68,8 @@ const Project = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
-
-//     <div className="container">
-//     <div className="row">
-//       <div className="col-7">
-//         <ul className="">
-//           {projects.map((project) => (
-//             <li className="" key={project}>
-//               <a href = {project.link}>
-//                 <img
-//                     alt={project.alt}
-//                     className = {project.source}
-//                     src= {require(`../../assets/footer/${project.source}.png`).default}
-//                     ></img>
-//               </a>
-//             </li>
-//           ))}
-//         </ul>
-//       </div>
-//     </div>
-//   </div>
 
 export default Project;

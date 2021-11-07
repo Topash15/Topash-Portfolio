@@ -2,11 +2,11 @@ import React from "react";
 
 const About = () => {
     return(
-        <div>
+        <section>
             <h2>About Me</h2>
             <img></img>
             <p>lorem ipsum dolor sit amet, consectetur adip</p>
-        </div>
+        </section>
     )
 
 }
