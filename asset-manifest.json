@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Topash-Portfolio/static/css/main.c9d56a8a.chunk.css",
+    "main.js": "/Topash-Portfolio/static/js/main.22273b60.chunk.js",
+    "main.js.map": "/Topash-Portfolio/static/js/main.22273b60.chunk.js.map",
+    "runtime-main.js": "/Topash-Portfolio/static/js/runtime-main.2b58322e.js",
+    "runtime-main.js.map": "/Topash-Portfolio/static/js/runtime-main.2b58322e.js.map",
+    "static/css/2.383c0125.chunk.css": "/Topash-Portfolio/static/css/2.383c0125.chunk.css",
+    "static/js/2.add9d109.chunk.js": "/Topash-Portfolio/static/js/2.add9d109.chunk.js",
+    "static/js/2.add9d109.chunk.js.map": "/Topash-Portfolio/static/js/2.add9d109.chunk.js.map",
+    "static/js/3.6945921a.chunk.js": "/Topash-Portfolio/static/js/3.6945921a.chunk.js",
+    "static/js/3.6945921a.chunk.js.map": "/Topash-Portfolio/static/js/3.6945921a.chunk.js.map",
+    "index.html": "/Topash-Portfolio/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/Topash-Portfolio/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.c9d56a8a.chunk.css.map": "/Topash-Portfolio/static/css/main.c9d56a8a.chunk.css.map",
+    "static/js/2.add9d109.chunk.js.LICENSE.txt": "/Topash-Portfolio/static/js/2.add9d109.chunk.js.LICENSE.txt",
+    "static/media/budget-tracker.png": "/Topash-Portfolio/static/media/budget-tracker.34c10cdf.png",
+    "static/media/fresh-finds.png": "/Topash-Portfolio/static/media/fresh-finds.e168fae1.png",
+    "static/media/headshot.png": "/Topash-Portfolio/static/media/headshot.6117b683.png",
+    "static/media/logo-stackoverflow.png": "/Topash-Portfolio/static/media/logo-stackoverflow.e2c42001.png",
+    "static/media/notetaker.png": "/Topash-Portfolio/static/media/notetaker.7de8d3e6.png",
+    "static/media/reading-corner.png": "/Topash-Portfolio/static/media/reading-corner.331372ea.png",
+    "static/media/social-media-api.png": "/Topash-Portfolio/static/media/social-media-api.10ab0033.png",
+    "static/media/App.css": "/Topash-Portfolio/static/media/space-background.b87b0bc3.jpg",
+    "static/media/stackoverflow.png": "/Topash-Portfolio/static/media/stackoverflow.2e92319e.png",
+    "static/media/tech-blog.png": "/Topash-Portfolio/static/media/tech-blog.82d0caa4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b58322e.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.add9d109.chunk.js",
+    "static/css/main.c9d56a8a.chunk.css",
+    "static/js/main.22273b60.chunk.js"
+  ]
+}
