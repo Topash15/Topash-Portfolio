@@ -86,6 +86,15 @@ a{
   margin-top: 15px
 }
 
+.about-me-img{
+  border-radius: 5%;
+}
+
+.about-me-text{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 /* Projects */
 
 .card{
@@ -161,9 +170,13 @@ form{
 
 /* MEDIA QUERY */
 @media (max-width: 767px) {
-
-  html{
-    background-size: 
+  .about-me-text{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5%;
   }
-  
+
+  .card{
+    background-color: rgba(0,0,0,0.8);
+    opacity: 1;
+  }
 }
