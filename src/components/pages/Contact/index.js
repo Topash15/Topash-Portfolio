@@ -8,7 +8,7 @@ const ContactForm= ()=> {
     const [errorMessage, setErrorMessage] = useState('')
 
     const handleChange = (e) => {
-        if (e.target.name === 'email'){
+        if (e.target.name === 'Email'){
             const isValid = validateEmail(e.target.value)
             if (!isValid){
                 setErrorMessage('Please enter a valid email address.')
@@ -36,19 +36,19 @@ const ContactForm= ()=> {
         <h1>Contact Me</h1>
         <form id="contact-form">
             {/* name input */}
-            <div>
+            <div class="form-group">
                 <label htmlFor="name">Name</label>
-                <input type="text" id="name" name = "name" defaultValue={name} onChange={handleChange}/>
+                <input type="text" className="form-control" id="name" name = "Name" defaultValue={name} onChange={handleChange}/>
             </div>
             {/* email input */}
-            <div>
+            <div class="form-group">
                 <label htmlFor="email">Email</label>
-                <input type="text" id="email"  name = "email" defaultValue={email} onChange={handleChange}/>
+                <input type="text" className="form-control" id="email"  name = "Email" defaultValue={email} onChange={handleChange}/>
             </div>
             {/* message text area */}
             <div>
                 <label htmlFor="message">Message:</label>
-                <textarea name="message" rows="5" defaultValue={message} onChange={handleChange}/>
+                <textarea name="Message" className="form-control" rows="5" defaultValue={message} onChange={handleChange}/>
             </div>
             {/* displays if error message */}
             {errorMessage && (
@@ -56,7 +56,9 @@ const ContactForm= ()=> {
                     <p id='error-message'>{errorMessage}</p>
                 </div>
             )}
-            <button type="submit" onClick={handleSubmit}>Submit</button>
+            <div className="form-group">
+                <button type="submit" className="contact-submit btn btn-light" onClick={handleSubmit}>Submit</button>
+            </div>
         </form>
     </section>)
 }

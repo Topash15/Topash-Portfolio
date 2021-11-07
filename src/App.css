@@ -6,8 +6,26 @@
 }
 
 *{
-  background-color: var(--background-color);
-  color: var(--secondary-color)
+  /* box-sizing: border-box; */
+  /* background-color: var(--background-color); */
+  color: var(--secondary-color);
+  /* background-color: rgb(77, 68, 68); */
+}
+
+html{
+  /* height: ; */
+  background-image: url("../src/assets/background/space-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body{
+  /* height: fit-content; */
+  background-image: url("../src/assets/background/space-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 a{
@@ -39,6 +57,16 @@ a{
 
 /* FOOTER */
 
+#body{
+  min-height: 100%;
+  position: relative;
+}
+
+.footer-img{
+  height: 64px;
+  width: 64px;
+}
+
 .footer-list{
   display: flex;
   list-style-type: none;
@@ -48,6 +76,45 @@ a{
 
 .footer-item{
   padding: 10px;
+}
+
+/* About Me */
+.about-me{
+  margin-top: 15px
+}
+
+/* Projects */
+
+.card{
+  margin-top: 15px;
+  opacity:.5;
+  background-color: rgba(0,0,0,0);
+  border: 0px;
+}
+
+.card:hover{
+  opacity:1;
+}
+
+.card-img-top{
+  height: 200px
+}
+
+.card-body{
+  background-color: rgba(0,0,0,50%);
+  border-radius: 2%;
+}
+
+/* Contact */
+
+form{
+  display: inline-flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact-submit{
+  margin-top: 10px;
 }
 
 .App {
@@ -89,7 +156,11 @@ a{
   }
 }
 
-.card-image{
-  /* height: 200px;
-  width: 200px; */
+/* MEDIA QUERY */
+@media (max-width: 767px) {
+
+  html{
+    background-size: 
+  }
+  
 }

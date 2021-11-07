@@ -27,10 +27,12 @@ function App() {
 
   return (
     <div className="App">
+      <div id = "body">
       <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
       <main>
         {renderPage(currentPage)}
       </main>
+      </div>
       <Footer></Footer>
     </div>
   );

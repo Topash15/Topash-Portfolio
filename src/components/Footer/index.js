@@ -4,42 +4,41 @@ import React from 'react';
 const Footer = () => {
     const contacts = [
         {
+            name: "GitHub",
             link: "https://github.com/Topash15",
             alt: "github",
-            source: 'GitHub32'
+            source: 'GitHub-Mark-Light-64px'
         },
         {
+            name: "LinkedIn",
             link: "https://www.linkedin.com/in/alexander-topash-667942168/",
             alt: "linkedin",
-            source: 'LinkedIn-Blue-14@2x'
+            source: 'In-White-34@2x'
         },
         {
+            name: "stackoverflow",
             link: "https://www.linkedin.com/in/alexander-topash-667942168/",
-            alt: "linkedin",
-            source: 'LinkedIn-Blue-14@2x'
+            alt: "stackoverflow",
+            source: 'stackoverflow'
         },
     ];
 
 
     return (
-      <div className="container">
-        <div className="row">
-          <div className="">
-            <ul className="footer-list">
+      <div className="container footer">
+            <ul className="footer-list row">
               {contacts.map((contact) => (
-                <li className="footer-item" key={contact}>
+                <li className="footer-item col-sm-4" key={contact}>
                   <a href = {contact.link}>
                     <img
                         alt={contact.alt}
-                        className = {contact.source}
+                        className = "footer-img"
                         src= {require(`../../assets/footer/${contact.source}.png`).default}
                         ></img>
                   </a>
                 </li>
               ))}
             </ul>
-          </div>
-        </div>
       </div>
     );
   };
