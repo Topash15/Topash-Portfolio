@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Topash-Portfolio/static/css/main.c9d56a8a.chunk.css",
-    "main.js": "/Topash-Portfolio/static/js/main.22273b60.chunk.js",
-    "main.js.map": "/Topash-Portfolio/static/js/main.22273b60.chunk.js.map",
+    "main.js": "/Topash-Portfolio/static/js/main.d01d4523.chunk.js",
+    "main.js.map": "/Topash-Portfolio/static/js/main.d01d4523.chunk.js.map",
     "runtime-main.js": "/Topash-Portfolio/static/js/runtime-main.2b58322e.js",
     "runtime-main.js.map": "/Topash-Portfolio/static/js/runtime-main.2b58322e.js.map",
     "static/css/2.383c0125.chunk.css": "/Topash-Portfolio/static/css/2.383c0125.chunk.css",
@@ -30,6 +30,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.add9d109.chunk.js",
     "static/css/main.c9d56a8a.chunk.css",
-    "static/js/main.22273b60.chunk.js"
+    "static/js/main.d01d4523.chunk.js"
   ]
 }
