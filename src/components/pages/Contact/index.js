@@ -34,6 +34,7 @@ const ContactForm= ()=> {
     return(
     <section>
         <h1>Contact Me</h1>
+        <p>The form below isn't working quite yet, but you can contact me at Alextopash@gmail.com.</p>
         <form id="contact-form">
             {/* name input */}
             <div class="form-group">
