@@ -3,6 +3,13 @@ import React from "react";
 const Project = () => {
   const projects = [
     {
+      name: "Newna Bros",
+      description: "Newna Bros is a concept page for a small business. It features a homepage with contact information and the backstory for the business. The second portion is an ecommerce shop that utilizes Stripe to complete payments.",
+      image: "newna-bros",
+      link: "https://newna-bros-ski-shop.herokuapp.com/",
+      repo: "https://github.com/Electrolion/Newna-Slopes",
+    },
+    {
       name: "Reading Corner",
       description: "Reading Corner was my second time working with a team and the process saw much improvement. The application is a reading journal which allows a user to log and save their thoughts as they progress through a book.",
       image: "reading-corner",
@@ -54,7 +61,7 @@ const Project = () => {
                 <img
                   className="card-img-top card-image"
                   src={
-                    require(`../../../assets/project/${project.image}.png`)
+                    require(`../../assets/project/${project.image}.png`)
                       .default
                   }
                   alt={project.name}

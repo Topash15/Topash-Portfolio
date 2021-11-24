@@ -2,11 +2,11 @@ import React, {useState} from 'react'
 import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css';
 import Nav from './components/Nav'
-import About from './components/pages/About'
-import Contact from './components/pages/Contact'
-import Project from './components/pages/Project'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Project from './pages/Project'
 import Footer from './components/Footer'
-import Resume from './components/pages/Resume'
+import Resume from './pages/Resume'
 
 function App() {
   const [currentPage, handlePageChange] = useState('About Me')
