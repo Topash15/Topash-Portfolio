@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 const Project = () => {
   const projects = [
@@ -52,7 +53,7 @@ const Project = () => {
 
   return (
     <section>
-      <h2>My Projects</h2>
+      <h2 className="my-projects-title">My Projects</h2>
       <div className="container">
         <div className="card-group">
           <div className="row">

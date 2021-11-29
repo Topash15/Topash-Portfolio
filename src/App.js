@@ -33,7 +33,6 @@ function App() {
         {renderPage(currentPage)}
       </main>
       </div>
-      <Footer></Footer>
     </div>
   );
 }

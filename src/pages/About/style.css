@@ -1,0 +1,19 @@
+.about-me {
+  margin-top: 15px;
+  background-color: rgb(0, 0, 0, 0.6);
+  margin-left: 15vh;
+  margin-right: 15vh;
+}
+
+.about-me-img {
+  border-radius: 5%;
+}
+
+.about-me-text {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.about-me-title {
+  font-family: "Permanent Marker";
+}

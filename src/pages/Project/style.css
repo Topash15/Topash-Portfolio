@@ -1,0 +1,23 @@
+.card {
+  margin-top: 15px;
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.card-body {
+  background-color: rgba(0, 0, 0, 50%);
+  border-radius: 2%;
+}
+
+.my-projects-title{
+  font-family: "Permanent Marker"
+}
