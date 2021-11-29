@@ -23,11 +23,21 @@ nav{
 }
 
 .nav-link{
-    color: var(--teritiary-color)
+    color: var(--teritiary-color);
+    margin-left: 15vh;
+    margin-right: 15vh;
+    font-weight: bold;
+    font-size: large;
 }
 
 .nav-link.active {
-    background-color: var(--background-color)
+    background-color: rgba(0,0,0,0.5);
+    color: var(--secondary-color);
+    font-weight: bolder;
+}
+
+.nav-link:hover{
+    color: black;
 }
 
 .nav-div{

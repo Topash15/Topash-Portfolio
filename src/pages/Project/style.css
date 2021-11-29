@@ -5,6 +5,10 @@
   border: 0px;
 }
 
+.card-title{
+  font-family: "Permanent Marker"
+}
+
 .card:hover {
   opacity: 1;
 }
@@ -20,4 +24,8 @@
 
 .my-projects-title{
   font-family: "Permanent Marker"
+}
+
+.project-link:hover{
+  color: var(--secondary-color)
 }

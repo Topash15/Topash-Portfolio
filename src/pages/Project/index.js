@@ -42,13 +42,7 @@ const Project = () => {
       image: "social-media-api",
       repo: "https://github.com/Topash15/social-media-api",
       link: "https://youtu.be/JXGrrIG8mBs",
-    },    {
-      name: "Notetaker",
-      description: "Notetaker is a simple application that utilizes express.js to save notes to a server through an intuitive UI.",
-      image: "notetaker",
-      link: "https://stark-bastion-00510.herokuapp.com/",
-      repo: "https://github.com/Topash15/Note-Master",
-    },
+    }
   ];
 
   return (
@@ -71,11 +65,11 @@ const Project = () => {
                   <h5 className="card-title">{project.name}</h5>
                   <p className="card-text">{project.description}</p>
                   <div>
-                    <a href={project.link} className="text-muted">
+                    <a href={project.link} className="project-link">
                         View Project
                     </a>
                   </div>
-                  <a href={project.repo} className="text-muted">
+                  <a href={project.repo} className="project-link">
                     View Repo
                   </a>
                 </div>

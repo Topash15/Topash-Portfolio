@@ -3,7 +3,7 @@ import "./style.css"
 import Footer from "../Footer"
 
 const Nav = (props) => {
-  const tabs = ["About Me", "My Projects", "Contact Me", "Resume"];
+  const tabs = ["About Me", "My Projects", "Resume", "Contact Me"];
 
   return (
     <nav className="nav-container">

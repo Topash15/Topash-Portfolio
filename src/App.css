@@ -34,15 +34,24 @@ a{
   color: var(--teritiary-color)
 }
 
+a:hover{
+  color:black
+}
+
 main{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex: 2 50%;
 }
 
+h1{
+  color: var(--teritiary-color);
+}
+
 h2{
-  font-family: "Permanent Marker"
+  font-family: "Permanent Marker";
+  color: var(--teritiary-color);
 }
 
 #body{
@@ -77,6 +86,15 @@ h2{
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
 /* MEDIA QUERY */
