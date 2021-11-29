@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Topash-Portfolio/static/css/main.c9d56a8a.chunk.css",
-    "main.js": "/Topash-Portfolio/static/js/main.45c56963.chunk.js",
-    "main.js.map": "/Topash-Portfolio/static/js/main.45c56963.chunk.js.map",
-    "runtime-main.js": "/Topash-Portfolio/static/js/runtime-main.4d0dc59c.js",
-    "runtime-main.js.map": "/Topash-Portfolio/static/js/runtime-main.4d0dc59c.js.map",
+    "main.css": "/Topash-Portfolio/static/css/main.596b6a18.chunk.css",
+    "main.js": "/Topash-Portfolio/static/js/main.e2558a9d.chunk.js",
+    "main.js.map": "/Topash-Portfolio/static/js/main.e2558a9d.chunk.js.map",
+    "runtime-main.js": "/Topash-Portfolio/static/js/runtime-main.13a12449.js",
+    "runtime-main.js.map": "/Topash-Portfolio/static/js/runtime-main.13a12449.js.map",
     "static/css/2.383c0125.chunk.css": "/Topash-Portfolio/static/css/2.383c0125.chunk.css",
-    "static/js/2.a85363a4.chunk.js": "/Topash-Portfolio/static/js/2.a85363a4.chunk.js",
-    "static/js/2.a85363a4.chunk.js.map": "/Topash-Portfolio/static/js/2.a85363a4.chunk.js.map",
-    "static/js/3.065ce601.chunk.js": "/Topash-Portfolio/static/js/3.065ce601.chunk.js",
-    "static/js/3.065ce601.chunk.js.map": "/Topash-Portfolio/static/js/3.065ce601.chunk.js.map",
+    "static/js/2.65657b03.chunk.js": "/Topash-Portfolio/static/js/2.65657b03.chunk.js",
+    "static/js/2.65657b03.chunk.js.map": "/Topash-Portfolio/static/js/2.65657b03.chunk.js.map",
+    "static/js/3.821a1b2d.chunk.js": "/Topash-Portfolio/static/js/3.821a1b2d.chunk.js",
+    "static/js/3.821a1b2d.chunk.js.map": "/Topash-Portfolio/static/js/3.821a1b2d.chunk.js.map",
     "index.html": "/Topash-Portfolio/index.html",
     "static/css/2.383c0125.chunk.css.map": "/Topash-Portfolio/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.c9d56a8a.chunk.css.map": "/Topash-Portfolio/static/css/main.c9d56a8a.chunk.css.map",
-    "static/js/2.a85363a4.chunk.js.LICENSE.txt": "/Topash-Portfolio/static/js/2.a85363a4.chunk.js.LICENSE.txt",
+    "static/css/main.596b6a18.chunk.css.map": "/Topash-Portfolio/static/css/main.596b6a18.chunk.css.map",
+    "static/js/2.65657b03.chunk.js.LICENSE.txt": "/Topash-Portfolio/static/js/2.65657b03.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Topash-Portfolio/static/media/Blueprint.f0fff382.png",
     "static/media/budget-tracker.png": "/Topash-Portfolio/static/media/budget-tracker.34c10cdf.png",
     "static/media/fresh-finds.png": "/Topash-Portfolio/static/media/fresh-finds.e168fae1.png",
     "static/media/headshot.png": "/Topash-Portfolio/static/media/headshot.6117b683.png",
@@ -22,15 +23,14 @@
     "static/media/notetaker.png": "/Topash-Portfolio/static/media/notetaker.7de8d3e6.png",
     "static/media/reading-corner.png": "/Topash-Portfolio/static/media/reading-corner.331372ea.png",
     "static/media/social-media-api.png": "/Topash-Portfolio/static/media/social-media-api.10ab0033.png",
-    "static/media/App.css": "/Topash-Portfolio/static/media/space-background.b87b0bc3.jpg",
     "static/media/stackoverflow.png": "/Topash-Portfolio/static/media/stackoverflow.2e92319e.png",
     "static/media/tech-blog.png": "/Topash-Portfolio/static/media/tech-blog.82d0caa4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d0dc59c.js",
+    "static/js/runtime-main.13a12449.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.a85363a4.chunk.js",
-    "static/css/main.c9d56a8a.chunk.css",
-    "static/js/main.45c56963.chunk.js"
+    "static/js/2.65657b03.chunk.js",
+    "static/css/main.596b6a18.chunk.css",
+    "static/js/main.e2558a9d.chunk.js"
   ]
 }
