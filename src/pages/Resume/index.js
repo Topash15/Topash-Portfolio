@@ -11,14 +11,16 @@ const Resume = () => {
         </p>
         <a
           className="resume-link"
-          href="https://1drv.ms/b/s!Ahrza5HOAqiXprAnweWr2Uzo_ldn6w?e=cEDFoq"
+          // href="https://1drv.ms/b/s!Ahrza5HOAqiXprAnweWr2Uzo_ldn6w?e=cEDFoq"
+          href = "https://docs.google.com/document/d/1i3vTXyyUmw5VsnnE3SI-lLEnObKp2drDTMGKrtKR0Qc/edit?usp=sharing"
         >
           Click here to download my resume
         </a>
         <iframe
           classname="resume-iframe"
           title="Resume-Viewer"
-          src="https://onedrive.live.com/embed?cid=97A802CE916BF31A&resid=97A802CE916BF31A%21628775&authkey=AH2A-MiG6YPzFno&em=2"
+          // src="https://onedrive.live.com/embed?cid=97A802CE916BF31A&resid=97A802CE916BF31A%21628775&authkey=AH2A-MiG6YPzFno&em=2"
+          src = "https://docs.google.com/document/d/1i3vTXyyUmw5VsnnE3SI-lLEnObKp2drDTMGKrtKR0Qc/edit?usp=sharing"
           height="500"
           frameborder="0"
           scrolling="no"
