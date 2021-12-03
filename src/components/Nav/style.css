@@ -4,6 +4,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
   }
   
 .nav{
@@ -14,8 +15,19 @@ nav{
 .nav-container {
     width: 50%;
     height: 100vh;
-    background-color: rgba(0, 168, 255, .3)
-};
+    background-color: rgba(0, 168, 255, .3);
+}
+
+.nav-upper{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-tabs-container{
+
+}
 
 .nav-tabs{
     width: 100%;
@@ -46,6 +58,7 @@ nav{
 
 .nav-list{
     list-style-type: none;
+    padding: 0;
 }
 
 .nav-upper{
@@ -62,4 +75,5 @@ nav{
 
 .headshot{
     border-radius: 50%;
+    width: 25%
 }
