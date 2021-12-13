@@ -1,6 +1,5 @@
 nav{
     flex: 1 25%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,15 +17,68 @@ nav{
     background-color: rgba(0, 168, 255, .3);
 }
 
+.nav-container input{
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0; 
+    z-index: 2; 
+    -webkit-touch-callout: none;
+}
+
+.nav-container span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+.nav-container span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+.nav-container span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+.nav-container input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: royalblue;
+}
+
+.nav-container input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.nav-container input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
 .nav-upper{
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
-}
-
-.nav-tabs-container{
-
 }
 
 .nav-tabs{
@@ -39,7 +91,7 @@ nav{
     margin-left: 15vh;
     margin-right: 15vh;
     font-weight: bold;
-    font-size: large;
+    font-size: 3vh;
 }
 
 .nav-link.active {
@@ -75,5 +127,37 @@ nav{
 
 .headshot{
     border-radius: 50%;
-    width: 25%
+    width: 50%
+}
+
+/* media queries */
+
+@media (max-width: 768px){
+
+}
+
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+.nav-container input:checked ~ ul
+{
+  transform: none;
 }
