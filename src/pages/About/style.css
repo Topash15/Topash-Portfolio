@@ -17,3 +17,7 @@
 .about-me-title {
   font-family: "Permanent Marker";
 }
+
+.about-me-skill-list{
+  list-style-type: none;
+}
