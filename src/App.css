@@ -62,12 +62,6 @@ p{
   display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -104,13 +98,7 @@ p{
 
 /* MEDIA QUERY */
 @media (max-width: 767px) {
-  .about-me-text{
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 5%;
-  }
-
-  .card{
-    background-color: rgba(0,0,0,0.8);
-    opacity: 1;
+  #body{
+    flex-direction: column;
   }
 }

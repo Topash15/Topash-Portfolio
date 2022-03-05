@@ -133,7 +133,29 @@ nav{
 /* media queries */
 
 @media (max-width: 768px){
+  .nav-container{
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+  }
 
+  .nav-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0;
+  }
+
+  .nav-tab{
+    margin: none;
+    width: 100%;
+  }
+
+  .nav-link{
+    width: 100%;
+    margin: 0;
+  }
 }
 
 #menu

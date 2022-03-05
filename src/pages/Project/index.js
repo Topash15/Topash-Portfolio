@@ -52,7 +52,7 @@ const Project = () => {
         <div className="card-group">
           <div className="row">
             {projects.map((project) => (
-              <div class="card col-sm-4">
+              <div class="card col-sm-6">
                 <img
                   className="card-img-top card-image"
                   src={

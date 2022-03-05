@@ -1,6 +1,15 @@
-.resume-div{
-    background-color: rgba(0, 0, 0, 0.6);
+.resume-div {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1em;
+  margin-left: 15vh;
+  margin-right: 15vh;
+}
+
+@media screen and (max-width: 768px) {
+  .resume-div {
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 1em;
-    margin-left: 15vh;
-    margin-right: 15vh;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }

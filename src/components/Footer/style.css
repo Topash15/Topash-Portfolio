@@ -20,3 +20,16 @@
 .footer-item {
   padding: 10px;
 }
+
+.footer-item:hover{
+  opacity: .8;
+}
+
+@media (max-width: 768px) {
+  .footer-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+
+}
