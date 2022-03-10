@@ -24,7 +24,7 @@ body{
   background-image: url("../src/assets/background/Blueprint.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   background-color: #1F1F1F;
   background-attachment: fixed;
   font-family: "Indie Flower";
