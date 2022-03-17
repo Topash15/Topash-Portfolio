@@ -4,45 +4,67 @@ import "./style.css";
 const Project = () => {
   const projects = [
     {
+      name: "3D Assistant",
+      description: "3D Assistant is a site created to simplify the process of troubleshooting 3D printers. It was created using React and connects with a MongoDB database on the backend.",
+      image: "3d-assistant",
+      link: "https://a-3d-assistant.herokuapp.com/",
+      repo: "https://github.com/Topash15/3d_print_troubleshooting"
+    },
+    {
+      name: "Destroy the Moon",
+      description: "Destroy the Moon is a redesign of a band's web page. It was built using React, but has not yet been optimized for mobile/tablet viewing. ",
+      image: "destroy-the-moon",
+      link: "https://destroy-the-moon.herokuapp.com/",
+      repo: "https://github.com/Topash15/destroy-the-moon"
+    },
+    {
       name: "Newna Bros",
-      description: "Newna Bros is a concept page for a small business. It features a homepage with contact information and the backstory for the business. The second portion is an ecommerce shop that utilizes Stripe to complete payments.",
+      description:
+        "Newna Bros is a concept page for a small business. It features a homepage with contact information and the backstory for the business. The second portion is an ecommerce shop that utilizes Stripe to complete payments.",
       image: "newna-bros",
       link: "https://newna-bros-ski-shop.herokuapp.com/",
       repo: "https://github.com/Electrolion/Newna-Slopes",
     },
     {
       name: "Reading Corner",
-      description: "Reading Corner was my second time working with a team and the process saw much improvement. The application is a reading journal which allows a user to log and save their thoughts as they progress through a book.",
+      description:
+        "Reading Corner was my second time working with a team and the process saw much improvement. The application is a reading journal which allows a user to log and save their thoughts as they progress through a book.",
       image: "reading-corner",
       link: "https://reading-corner-project.herokuapp.com/",
       repo: "https://github.com/Electrolion/Reading-corner",
     },
     {
       name: "Fresh Finds",
-      description: "Fresh Finds was the first application built while coordinating with a team. It utilizes the SpotifyAPI to pick a random song based off a genre. It plays a demo of the song and displays the lyrics as well.",
+      description:
+        "Fresh Finds was the first application built while coordinating with a team. It utilizes the SpotifyAPI to pick a random song based off a genre. It plays a demo of the song and displays the lyrics as well.",
       image: "fresh-finds",
       link: "https://imspires.github.io/fresh-finds/",
       repo: "https://github.com/imSpires/fresh-finds",
     },
     {
       name: "Budget Tracker",
-      description: "Budget tracker is a minimalistic app that allows one to add an expense or deposit to their budget. The app is a Progressive Web App (PWA) and has offline capabilities.",
+      description:
+        "Budget tracker is a minimalistic app that allows one to add an expense or deposit to their budget. The app is a Progressive Web App (PWA) and has offline capabilities.",
       image: "budget-tracker",
       link: "https://this-budget-tracker.herokuapp.com/",
       repo: "https://github.com/Topash15/Budget-Tracker",
-    },    {
+    },
+    {
       name: "Tech Blog",
-      description: "Tech blog is a blog application that allows a user to create and account, post, and comment on posts. Data is saved to a SQL database.",
+      description:
+        "Tech blog is a blog application that allows a user to create and account, post, and comment on posts. Data is saved to a SQL database.",
       image: "tech-blog",
       link: "https://tech-blog-topash.herokuapp.com/",
       repo: "https://github.com/Topash15/Tech-Blog",
-    },    {
+    },
+    {
       name: "Social Media API",
-      description: "This project uses MongoDB and RESTful API routes to create the back-end of a social media website.",
+      description:
+        "This project uses MongoDB and RESTful API routes to create the back-end of a social media website.",
       image: "social-media-api",
       repo: "https://github.com/Topash15/social-media-api",
       link: "https://youtu.be/JXGrrIG8mBs",
-    }
+    },
   ];
 
   return (
@@ -56,8 +78,7 @@ const Project = () => {
                 <img
                   className="card-img-top card-image"
                   src={
-                    require(`../../assets/project/${project.image}.png`)
-                      .default
+                    require(`../../assets/project/${project.image}.png`).default
                   }
                   alt={project.name}
                 ></img>
@@ -66,7 +87,7 @@ const Project = () => {
                   <p className="card-text">{project.description}</p>
                   <div>
                     <a href={project.link} className="project-link">
-                        View Project
+                      View Project
                     </a>
                   </div>
                   <a href={project.repo} className="project-link">
