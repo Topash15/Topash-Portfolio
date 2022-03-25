@@ -6,12 +6,7 @@ const Nav = (props) => {
   const tabs = ["About Me", "My Projects", "Resume", "Contact Me"];
 
   return (
-    <nav className="nav-container">
-      {/* <input type="checkbox" />
-      <span></span>
-      <span></span>
-      <span></span> */}
-      
+    <nav className="nav-container">      
       <div className="nav-upper">
         <h1 className="myName">Alexander Topash</h1>
         <h2 className="myTitle">Full Stack Web Developer</h2>
