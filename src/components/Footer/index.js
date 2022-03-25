@@ -20,17 +20,17 @@ const Footer = () => {
             name: "stackoverflow",
             link: "https://stackoverflow.com/users/16146092/topash",
             alt: "stackoverflow",
-            source: 'stackoverflow'
+            source: 'stackoverflow192'
         },
     ];
 
 
     return (
       <div className="container footer">
-            <ul className="footer-list row">
+            <ul className="footer-list">
               {contacts.map((contact) => (
-                <li className="footer-item col-sm-4" key={contact}>
-                  <a href = {contact.link}>
+                <li className="footer-item" key={contact.name}>
+                  <a className="footer-link"href = {contact.link} title={contact.name} >
                     <img
                         alt={contact.alt}
                         className = "footer-img"

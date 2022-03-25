@@ -5,7 +5,6 @@ import Nav from './components/Nav'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Project from './pages/Project'
-import Footer from './components/Footer'
 import Resume from './pages/Resume'
 
 function App() {

@@ -21,13 +21,19 @@ html{
 }
 
 body{
-  background-image: url("../src/assets/background/Blueprint.png");
+  background-image: url("../src/assets/background/Blueprint.webp");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size:cover;
   background-color: #1F1F1F;
   background-attachment: fixed;
   font-family: "Indie Flower";
+}
+
+@media (max-width: 768px){
+  body{
+    background-size: auto;
+  }
 }
 
 a{

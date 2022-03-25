@@ -2,9 +2,12 @@
   align-self: end;
 }
 
+.footer-link{
+  width: 100%;
+}
+
 .footer-img {
-  height: 64px;
-  width: 64px;
+  max-width: 64px;
   background-color: rgba(59, 187, 255, 0);
   border-radius: 5%;
   box-shadow: 10px 10px;
@@ -15,10 +18,11 @@
   list-style-type: none;
   width: 100%;
   justify-content: space-evenly;
+  padding:0;
 }
 
 .footer-item {
-  padding: 10px;
+  padding: .9em;
 }
 
 .footer-item:hover{
@@ -29,7 +33,10 @@
   .footer-list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+  }
+
+  .footer-width{
+    width: 100%
   }
 
 }

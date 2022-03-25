@@ -1,24 +1,22 @@
-.email-div {
-  background-color: rgba(0, 0, 0, 0.6);
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 80vh;
+  justify-content: space-around;
+  padding: 1em;
 }
 
-.email-title {
+.contact-title {
   font-family: "Permanent Marker";
 }
 
-.phone-div {
+.contact-text-div {
   background-color: rgba(0, 0, 0, 0.6);
+  width: auto;
 }
 
-.phone-title {
-  font-family: "Permanent Marker";
-}
-
-.email-link{
-  font-size: 1.5em;
-}
-
-.phone-number {
+.contact-link {
   font-size: 1.5em;
 }
 
@@ -26,14 +24,6 @@ form {
   display: inline-flex;
   flex-direction: column;
   width: 50%;
-}
-
-.contact-container {
-  display: flex;
-  flex-direction: column;
-  width: 100vh;
-  height: 80vh;
-  justify-content: space-around;
 }
 
 .contact-submit {
