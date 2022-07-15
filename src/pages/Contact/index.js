@@ -14,7 +14,7 @@ const ContactForm= ()=> {
         <div className='contact-text-div'>
             <h2 className="contact-title">Cell Phone</h2>
             <p className = "contact-subtitle">Call or text</p>
-            <a className="contact-number" href="tel:17178779709">(717)-877-9709</a>
+            <a className="contact-link" href="tel:17178779709">(717)-877-9709</a>
         </div>
     </section>)
 }

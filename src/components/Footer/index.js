@@ -12,7 +12,7 @@ const Footer = () => {
         },
         {
             name: "LinkedIn",
-            link: "https://www.linkedin.com/in/alexander-topash-667942168/",
+            link: "https://www.linkedin.com/in/alexander-topash/",
             alt: "linkedin",
             source: 'In-White-34@2x'
         },
@@ -30,7 +30,7 @@ const Footer = () => {
             <ul className="footer-list">
               {contacts.map((contact) => (
                 <li className="footer-item" key={contact.name}>
-                  <a className="footer-link"href = {contact.link} title={contact.name} >
+                  <a target="_blank" rel="noreferrer" className="footer-link"href = {contact.link} title={contact.name} >
                     <img
                         alt={contact.alt}
                         className = "footer-img"
