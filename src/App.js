@@ -19,7 +19,7 @@ function App() {
       case 'Resume':
         return <Resume />;
       default:
-        return <About />;
+        return <About currentPage={currentPage} handlePageChange={handlePageChange} />;
     }
   };
 

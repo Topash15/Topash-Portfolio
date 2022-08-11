@@ -44,7 +44,7 @@ nav {
   margin-right: auto;
 }
 
-.nav-link.active {
+.nav-link.active, .nav-link:focus{
   background-color: rgba(0, 0, 0, 0.5);
   color: var(--secondary-color);
   font-weight: bolder;
@@ -79,8 +79,11 @@ nav {
 .headshot {
   border-radius: 50%;
   width: 50%;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  margin: 1em;
+  border: .5em solid var(--teritiary-color);
+  background-color: rgb(187, 187, 187);
 }
 
 /* media queries */

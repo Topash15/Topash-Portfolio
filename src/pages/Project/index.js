@@ -84,11 +84,11 @@ const Project = () => {
         <div className="card-group">
           <div className="row">
             {projects.map((project, index) => (
-              <div class="card col-sm-6" key={index}>
+              <div className="card col-sm-6" key={index}>
                 <img
                   className="card-img-top card-image"
                   src={
-                    require(`../../assets/project/${project.image}.png`).default
+                    require(`../../assets/project/${project.image}.png`)
                   }
                   alt={project.name}
                 ></img>
