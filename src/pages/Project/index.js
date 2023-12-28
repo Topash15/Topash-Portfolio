@@ -4,11 +4,17 @@ import "./style.css";
 const Project = () => {
   const projects = [
     {
-      name: "Astro Amateur",
-      description:
-        "A personal astrophotography portfolio built using Typescript and Angular.",
-      image: "astro-amateur",
+      name: 'AstroAmateur',
+      description: 'This is the updated version of my astrophotography portfolio site. It\'s been updated from Angular to React written in Typescript',
+      image: "astro-amateur-new",
       link: "http://www.astroamateur.space/",
+      repo: "https://github.com/Topash15/astro-amateur-react-ts",
+    },{
+      name: "Astro Amateur (old)",
+      description:
+        "A personal astrophotography portfolio built using Typescript and Angular. This is outdated and has been converted to a React Typescript project.",
+      image: "astro-amateur",
+      link: "",
       repo: "https://github.com/Topash15/astro-amateur",
     },
     {
@@ -24,7 +30,7 @@ const Project = () => {
       description:
         "Destroy the Moon is a mockup redesign of an existing band's website. It was built using React. I attempted to use similar themes to their current website while giving it my own twist and providing some useful information that was not on the original site.",
       image: "destroy-the-moon",
-      link: "https://destroy-the-moon.herokuapp.com/",
+      link: "https://destroy-the-moon-mock-up.onrender.com/",
       repo: "https://github.com/Topash15/destroy-the-moon",
     },
     {
