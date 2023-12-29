@@ -4,7 +4,7 @@ import "./style.css";
 const Project = () => {
   const projects = [
     {
-      name: 'AstroAmateur',
+      name: 'Astro Amateur',
       description: 'This is the updated version of my astrophotography portfolio site. It\'s been updated from Angular to React written in Typescript',
       image: "astro-amateur-new",
       link: "http://www.astroamateur.space/",
@@ -87,6 +87,7 @@ const Project = () => {
     <section>
       <h2 className="my-projects-title">My Projects</h2>
       <div className="container">
+        <p class="post-heading-description">Please note that most of these are hosted on free services which go idle when inactive. Please be patient if page doesn't appear to load. Heroku sites are not active and are in the process of being migrated to other hosting sites.</p>
         <div className="card-group">
           <div className="row">
             {projects.map((project, index) => (
@@ -102,9 +103,9 @@ const Project = () => {
                   <h5 className="card-title">{project.name}</h5>
                   <p className="card-text">{project.description}</p>
                   <div>
-                    <a target="_blank" rel="noreferrer" href={project.link} className="project-link">
+                    {project.link ? <a target="_blank" rel="noreferrer" href={project.link} className="project-link">
                       View Project
-                    </a>
+                    </a> : null}
                   </div>
                   <a target="_blank" rel="noreferrer" href={project.repo} className="project-link">
                     View Repo
